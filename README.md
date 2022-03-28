@@ -48,3 +48,7 @@ Open the terminal in you machine and run the following command to access the web
 ```bash
 streamlit run app.py
 ```
+
+You are ready! and you will have something like this:
+
+ ![front example](statics/front_example.png)
