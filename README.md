@@ -39,6 +39,11 @@ Copy the file `.env.example` and change the name to `.env` and fill with the res
 where you will work.
 
 ## Getting Started
+Run all tests
+```bash
+python -m unittest discover -s tests  -p '__*.py' 
+```
+
 Open the terminal in you machine and run the following command to access the web application in your localhost.
 ```bash
 streamlit run app.py
