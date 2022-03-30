@@ -52,3 +52,11 @@ streamlit run app.py
 You are ready! and you will have something like this:
 
  ![front example](statics/front_example.png)
+ 
+## Packages install tips
+
+```bash
+pip install python-dotenv
+pip install --upgrade google-auth
+pip install google-cloud-bigquery
+```

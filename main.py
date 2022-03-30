@@ -28,7 +28,8 @@ if st.button("Submit"):
 
     # Store inputs into dataframe
     X = pd.DataFrame([[sepal_length, sepal_width, petal_length, petal_width]],
-                     columns=[features])
+                     columns=features)
+
     labels = get_dict("target_labels.json")
 
     # Get prediction
