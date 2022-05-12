@@ -5,6 +5,7 @@ from data.utils import BigQueryManager
 import os
 from configs import PATH_DATA_MODELS
 
+
 class mlopsTrainModel(unittest.TestCase):
     def test_train_update(self):
         query = """
@@ -17,7 +18,7 @@ class mlopsTrainModel(unittest.TestCase):
         data_t = preprocess(data=data)
         model_name = "model"
         train_update(data_t)
-        self.assertEqual(os.path.isfile(PATH_DATA_MODELS / "{}.sav".format(model_name)) , True)  # add assertion here
+        self.assertEqual(os.path.isfile(PATH_DATA_MODELS / "{}.sav".format(model_name)), True)  # add assertion here
 
 
 if __name__ == '__main__':

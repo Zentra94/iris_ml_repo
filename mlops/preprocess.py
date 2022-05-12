@@ -1,5 +1,6 @@
 from data.utils import get_dict
 
+
 def preprocess(data):
     data_t = data.copy()
     label_enc = get_dict("target_labels.json")

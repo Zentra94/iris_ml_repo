@@ -24,5 +24,6 @@ class dataUtils(unittest.TestCase):
         show_data_frame_as_tabulate(data)
         self.assertEqual(len(data), 10)
 
+
 if __name__ == '__main__':
     unittest.main()
