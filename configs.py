@@ -12,8 +12,8 @@ PATH_TEST = PATH_MAIN / "tests"
 PATH_STATICS = PATH_MAIN / "statics"
 
 load_dotenv()
-GCP_CRED_PATH = os.getenv("GCP_CRED_PATH")
-GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+GCP_CRED_PATH = os.getenv("GCP_CRED_PATH") if os.getenv("GCP_CRED_PATH") else PATH_MAIN
+GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID") if os.getenv("GCP_PROJECT_ID") else PATH_MAIN
 
 if __name__ == '__main__':
     print("the main path is: {}".format(PATH_MAIN))
