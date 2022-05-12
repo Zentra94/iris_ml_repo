@@ -7,6 +7,7 @@ This is doing using the classic iris dataset in order to give an example.
 * Python 3.x (the project was developed using python 3.8)
 * virtualenv installed (associated with you py3 installation)
 * pip installed (associated with you py3 installation)
+* git installed
 
 ## Local installation
 Clone the project
@@ -46,7 +47,7 @@ python -m unittest discover -s tests  -p '__*.py'
 
 Open the terminal in you machine and run the following command to access the web application in your localhost.
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 You are ready! and you will have something like this:

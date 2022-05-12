@@ -1,4 +1,4 @@
-from configs import PATH_DATA_MODELS, PATH_DATA_DICTS
+from configs import PATH_DATA_MODELS
 from sklearn import svm
 import joblib
 

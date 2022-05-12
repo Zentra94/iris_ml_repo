@@ -13,8 +13,6 @@ def get_dict(dict_name):
         print("File {} doesn't exists".format(path))
     return {}
 
-
-
 def show_data_frame_as_tabulate(data_frame, show_first=2000, float_decimals=-1):
     """
     Show a pd.DataFrame in a nice way
