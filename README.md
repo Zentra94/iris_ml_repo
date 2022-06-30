@@ -1,5 +1,5 @@
 # Iris Machine Learning Repository
-This repository is to lear how to use some friendly code tools for doing machine learning repositories.
+This repository is to learn how to use some friendly code tools for doing machine learning repositories.
 This is doing using the classic iris dataset in order to give an example.
 
 
